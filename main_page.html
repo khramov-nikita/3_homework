@@ -1,11 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Главная</title>
-    <link href="styles.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet"/>
 </head>
 <body>
-
+    <div class="row">
+        <div class="col-2">
+            <div class="row">
+                <div class="list-group list-group-flush">
+                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                        The current link item
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+                    <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+                    <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+                </div>
+            </div>
+            <!-- Default dropup button -->
+            <div class="row">
+                <div class="dropdown">
+                    <a aria-expanded="false" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                       role="button">
+                        Centered dropup
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Action two</a></li>
+                        <li><a class="dropdown-item" href="#">Action three</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="row align-items-center">
+                <div class="text-center">
+                    <h2>Главная</h2>
+                    <h6>Вы находитесь на сайте, предназначенном для продажи товаров</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-8">
+                            <div class="card">
+                                <h5 class="card-header">Товар 1</h5>
+                                <div class="card-body">
+                                    <h5 class="card-title">$100</h5>
+                                    <p class="card-text">Описание товара</p>
+                                    <a href="#" class="btn btn-primary w-100">Купить</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                    <div class="row"></div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-8">
+                            <div class="card">
+                                <h5 class="card-header">Товар 2</h5>
+                                <div class="card-body">
+                                    <h5 class="card-title">$100</h5>
+                                    <p class="card-text">Описание товара</p>
+                                    <a href="#" class="btn btn-primary w-100">Купить</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-8">
+                            <div class="card">
+                                <h5 class="card-header">Товар 3</h5>
+                                <div class="card-body">
+                                    <h5 class="card-title">$100</h5>
+                                    <p class="card-text">Описание товара</p>
+                                    <a href="#" class="btn btn-primary w-100">Купить</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+
+
+
